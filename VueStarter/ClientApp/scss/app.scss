@@ -1,0 +1,29 @@
+﻿@import "_variables.scss";
+
+* {
+    box-sizing: border-box !important;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background: $background;
+    color: $text;
+    font-family: $font-family;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    padding: .25rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    opacity: .5;
+}
+
+.pa-2 {
+    padding: 1rem;
+}
